@@ -1,0 +1,242 @@
+.App {
+
+  /* display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+  background-image: url("../public/best-background-for-website-02.jpg");
+  
+}
+
+.title_homepage{
+
+  align-items: center;
+  justify-content: center;
+  padding-top: 3cm;
+  padding-left: 5cm;
+  padding-right: 5cm;
+
+}
+
+
+
+.login{
+
+  display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.register{
+
+  display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.Questionforum{
+
+display: flex;
+  min-height: 140vh;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+
+
+.Fullquestionpage{
+  display: flex;
+  min-height: 100vh;
+
+
+}
+
+.wrapper {
+  display: inline-flex;
+  background: #fff;
+  height: 40px;
+  width: 170px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 2px 1.5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.wrapper .option {
+  background: #fff;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 1.0px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 1.0px;
+  border: 2px solid lightgrey;
+  transition: all 0.3s ease;
+}
+
+.wrapper .option .dot {
+  height: 5px;
+  width: 5px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+}
+
+.wrapper .option .dot::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: #0069d9;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#option-1:checked:checked~.option-1,
+#option-2:checked:checked~.option-2 {
+  border-color: #0069d9;
+  background: #0069d9;
+}
+
+#option-1:checked:checked~.option-1 .dot,
+#option-2:checked:checked~.option-2 .dot {
+  background: #fff;
+}
+
+#option-1:checked:checked~.option-1 .dot::before,
+#option-2:checked:checked~.option-2 .dot::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.wrapper .option span {
+  font-size: 10px;
+  color: #808080;
+}
+
+#option-1:checked:checked~.option-1 span,
+#option-2:checked:checked~.option-2 span {
+  color: #fff;
+}
+
+.Timeline{
+
+  display: flex;
+  min-height: 100vh;
+  
+}
+.Tags{
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.Questiontitle{
+
+background-image: url("../public/best-background-for-website-02.jpg");
+padding: 1cm;
+
+}
+
+
+
+
+.appbar{
+
+  background-image: url("../public/best-background-for-website-02.jpg");
+  flex-grow: 1;
+  padding:0.5cm;
+
+}
+
+.iconbutton{
+
+  float: right;
+  color: rgb(222, 227, 231);
+}
+
+
+.iconbar{
+flex-grow: 1;
+color:aliceblue;
+font-size: 2rem;
+
+}
+
+.auth-form-container, .register-form, .login-form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+@media screen and (min-width: 600px) {
+  
+}
+
+.auth-form-container{
+
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0.5rem;
+
+}
+
+
+
+
+label{
+
+text-align: left;  
+padding: 0.25rem 0;
+}
+
+input{
+margin: 0.5rem 0;
+padding: 1rem;
+border: none;
+border-radius: 10px;
+
+
+}
+button{
+border: none;
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+cursor: pointer;
+color:#7819d7 ;
+
+}
+
+.link-btn{
+background: none;
+color: white;
+text-decoration: underline;
+
+}
+
+
+
+
+
