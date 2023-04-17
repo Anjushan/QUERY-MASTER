@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    
+    <h1 style="font-size:2cm;text-align:center ;">User Registration</h1>
+
+    <div style="text-align: center;padding: 2cm;">
+        <form action="@{/}" method="post" style="max-width :2000px ;margin: 0 auto;">
+
+            <div style="background-color: aquamarine ; margin:center; " >
+
+                <div class="form groups">
+
+                    <label>FIRST NAME</label><br>
+                    <div>
+                        <input type="text" id="firstname" name="firstname" formnovalidate required  />
+                    </div>
+
+                </div>
+
+                <div class="form groups">
+                
+                    <label>LAST NAME</label>
+                    <div>
+                        <input type="text" id="lastname" name="lastname" formnovalidate  required/>
+                    </div>
+                
+                </div>
+
+                <div class="form groups">
+                
+                    <label>EMAIL</label>
+                    <div>
+                        <input type="email" id="email" name="email" formnovalidate  required />
+                    </div>
+                
+                </div>
+
+                <div class="form groups">
+                
+                    <label>USER TYPE</label>
+                    <div>
+                        <input type="text" id="usertype" name="usertype" formnovalidate required />
+                    </div>
+                
+                </div>
+
+                <div class="form groups">
+                
+                    <label>FIELD</label>
+                    <div>
+                        <input type="number" id="field" name="field" formnovalidate  required />
+                    </div>
+                
+                </div>
+
+                <div class="form groups">
+                
+                    <label>PASSWORD</label>
+                    <div>
+                        <input type="password" id="password" name="password" formnovalidate   required /><br>
+                    </div>
+                
+                </div>
+
+
+                <div class="form groups">
+                
+                   <button style="size: 40px ; margin:0.5cm ; ">SUBMIT</button>
+                
+                </div>
+
+            </div>
+
+        </form>
+
+        
+
+    </div>
+
+
+
+
+
+</body>
+</html>
